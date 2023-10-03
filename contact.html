@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <div class="contact-banner">
+    <div class="banner">
         <div class="navbar">
             <img src="logo.png" class="logo">
             <ul>
@@ -17,6 +17,56 @@
             </ul>
         </div>
     </div> 
+
+
+    <section>
+        <div id="wrapper">
+            <h1>Contact Me</h1>
+            <form action="mailto:ahmed.tazwar@ontariotechu.net" ?subject="SignUp" enctype="text/plain" method="post"
+                name="Form">
+                <div class="form-group">
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your complete name here" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email here" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedback">Comments :</label><br>
+                    <textarea id="feedback" name="feedback" cols="60" rows="8"></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <input type="checkbox" id="maillist" name="maillist">
+                    <label for="maillist">Put me on your e-list!</label>
+                </div>
+                <div class="form-group">
+                    <label for="where">How did you find us?</label>
+                    <select id="where" name="where">
+                        <option value="Search engine">Search engine</option>
+                        <option value="Word of mouth">Word of mouth</option>
+                        <option value="Craigslist">Craigslist</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    
+
+
+
+
+
+
+
 
 
     <footer>
