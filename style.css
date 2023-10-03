@@ -14,10 +14,8 @@
     color: #555;
     font-size: 14px;
     font-weight: bold;
-
 }
-  
-  
+
 .navbar{
     width:85%;
     margin: auto;
@@ -63,18 +61,22 @@
     
 } 
 
-.Main_heading {
-        
+
+.content_home{
+            
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0)), url(home.background.jpg);
     background-size: cover;
     background-position: center;
-    
+
+}
+.Main_heading {
+
     width: 100%;
-    font-size: large;
+    font-size: xx-large;
     position: absolute;
-    top: 19%;
+    top: 50%;
     text-align: center;
     color:#fff
 }
@@ -82,14 +84,79 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
   }
+
+  #about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
   
+  .about_dp img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(0.6);
+  }
+  
+  .about_text {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about_text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about_text p {
+    margin-bottom: 10px;
+  }
+  #about_video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+  }
+  
+  #recording {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #recording::media-controls-panel {
+    background-color: rgba(165, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   footer {
     color: white;
     background: #172026;
-    padding: 1px;
+    padding: 20px;
     text-align: center;
   }
   
