@@ -213,12 +213,17 @@ input[type="submit"]:hover {
     transition: transform 0.3s ease;
     width: 200px; 
     margin: 80px; 
-    transform: scale(1.5);
+    transform: scale(1.7);
     transform: translateY(5);
-
-
 }
 
+
+.gallery_class{
+    border-radius: 0%;
+    background-image: linear-gradient(rgb(147, 61, 0), rgb(121, 0, 250));
+    padding: 20px;
+
+}
 
 .gallery img {
     width: 100%;
